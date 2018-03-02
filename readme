@@ -1,0 +1,23 @@
+This codes are developed for the lab4 of Concurrent Programing module.
+The codes can be compliled using this method.
+
+for sequencial:
+	to compile:
+		g++ -o sequence sequentialMatrixMultiplication.cpp -fopenmp
+	to run:
+		./sequence <int dim> (eg: ./sequence 1000)
+
+
+for parallel:
+	to compile:
+		g++ -o parallel parallelMatrixMultiplication.cpp -fopenmp
+	to run:
+		./parallel <int dim> (eq: ./parallel 1000)
+
+for optimal:
+	to compile:
+		g++ -o optimal optimalMatrixMultiplication.cpp -fopenmp
+	to run:
+		./optimal <int dim> (eg: ./optimal 1000)
+
+
